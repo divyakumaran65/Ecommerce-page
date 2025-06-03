@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothify - Fashion Redefined</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Clothify</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Brands</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Sale</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Upgrade Your Style</h1>
+        <p>Top Brands. Premium Quality. Unbeatable Prices.</p>
+        <a href="#" class="btn">Shop Now</a>
+    </section>
+
+    <section class="brands">
+        <h2>Featured Brands</h2>
+        <div class="brand-logos">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nike_logo.svg/320px-Nike_logo.svg.png" alt="Nike">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Adidas_Logo.svg/320px-Adidas_Logo.svg.png" alt="Adidas">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Puma_AG.svg/320px-Puma_AG.svg.png" alt="Puma">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Zara_Logo.svg/320px-Zara_Logo.svg.png" alt="Zara">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Levi%27s_logo.svg/320px-Levi%27s_logo.svg.png" alt="Levi's">
+        </div>
+    </section>
+
+    <section class="products">
+        <h2>Popular Picks</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250x300?text=Nike+Jacket" alt="Product 1">
+                <h3>Nike Jacket</h3>
+                <p>$99</p>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250x300?text=Adidas+T-shirt" alt="Product 2">
+                <h3>Adidas T-shirt</h3>
+                <p>$45</p>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250x300?text=Puma+Sneakers" alt="Product 3">
+                <h3>Puma Sneakers</h3>
+                <p>$79</p>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250x300?text=Zara+Dress" alt="Product 4">
+                <h3>Zara Dress</h3>
+                <p>$120</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Clothify. All rights reserved.</p>
+    </footer>
+</body>
+</html>
